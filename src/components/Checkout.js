@@ -101,7 +101,7 @@ const Checkout = () => {
   
       if (response.status === 200) {
         console.log('Order confirmation email sent successfully');
-        navigate('/thank-you');
+        navigate('/thankyou');
       } else {
         console.error('Failed to send order confirmation email');
       }
